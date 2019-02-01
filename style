@@ -1,0 +1,16 @@
+.jumbotron{
+    background-image: url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi8xsny9u_fAhWMneAKHdaWAucQjRx6BAgBEAU&url=http%3A%2F%2Fclipart-library.com%2Fanimated-snow-cliparts.html&psig=AOvVaw3fs0AjfqmyoCLo083o6cZl&ust=1547646569743458k")
+    ; color:black;
+}
+
+h2 {
+    color:Red;
+}
+
+h4 {
+    color:blue;
+}
+
+button {
+    color:blue;
+}
