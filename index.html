@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <title>Game Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1><b>Game Page</b></h1>
+            </div>
+        </div>
+          </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class ="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Read here before playing Rock Paper Scissors</h2>
+                    
+                        <h4>Rock beats scissors, scissors beats paper, paper beats rock</h4>
+                        
+                        <label>Type rock, paper, scissors and click the play button:</label><input id ='userInput'><br>
+                        <button onclick = "RockPaperScissors()">
+                            <h1>Click here to play</h1>
+                        </button>
+                   </div>
+                    <div class="col-md-6">
+                        <h2>Read here before playing Dice Game</h2>
+                    
+                        <h4>Click the button to roll the dice and see your roll.</h4>
+                    
+                        <button onclick = "diceGame()">
+                            <h1>Click here to play</h1>
+                        </button> <p id = 'diceOutput'></p>
+                        <p id = 'user'></p>
+                        <p id = 'computerHand'></p>
+                        <p id = 'RockPaperScissorsOutput'></p>
+                    </div>
+               </div>
+            </div>
+        </div>
+            <script src = 'dice.js'></script>  
+            <script src = 'rockpaperscissors.js'></script>  
+    </body>
+</html>
